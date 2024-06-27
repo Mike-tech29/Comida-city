@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+logo{
+    margin: 0%;
+}
+
+
+
+.tete{
+    background-color: orange;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 60vh;}
+    .hamb{
+        display: flex;
+    justify-content:space-between;
+    align-items:center;
+    }
+    .cuerpo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        height: 50%;
+    }
+    img{margin-top: 42%;
+    }
+    .hamb2{display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+    }
+    

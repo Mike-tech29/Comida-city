@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.a{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 70%;
+    height: 100%;
+    font-weight: 600;
+    color: black;
+    
+
+    .a :hover{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;}
+        
+    
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    text-decoration: none;
+}
+li{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    .section2{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("alitas.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        flex-direction: column;
+
+    }
+
+    .hamb2{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hamb1{
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .hamb3{
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    
+    .titulo,.titulo2{
+        color: orange;
+        font-size: 50px;
+        text-align: center;
+    }
+    .a:hover{
+        color: white;
+        font-size: 2em;
+
+    }
+    .section3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.mila1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mila2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mila3{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pie{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: orange;
+}
+.pli{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
